@@ -58,6 +58,4 @@ def mc():
     
     if __name__ == '__main__':
         downloadFile(r + '.jar', d)
-schedule.every().saturday.at('12:00').do(mc)
-while True:
-    schedule.run_pending()
+mc()
